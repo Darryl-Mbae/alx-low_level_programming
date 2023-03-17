@@ -25,4 +25,4 @@ Write a script that compiles a C file but does not link.
   * Example: if the C file is main.c, the output file should be main.o
  
 Double quotes, on the other hand, allow for parameter expansion and command substitution, which means that variables and commands within the quotes are evaluated by the shell before the string is passed to the command. 
-The ```${CFILE}``` parameter expansion is evaluated to the value of the $CFILE variable, and then the .c extension is removed using the ${CFILE%.c} syntax. Finally, the .s extension is added to create the output file name.
+The ```${CFILE}``` parameter expansion is evaluated to the value of the ```$CFILE``` variable, and then the .c extension is removed using the ```${CFILE%.c}``` syntax. Finally, the .s extension is added to create the output file name.
