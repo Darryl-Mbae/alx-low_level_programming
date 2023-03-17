@@ -32,4 +32,4 @@ Write a script that compiles a C file but does not link.
     * The C file name will be saved in the variable ```$CFILE``` .
     * The output file will be named the same as the C file, but with the extension .s instead of .c
  
- * [3-name]()
+ * [3-name](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/3-name)```gcc $CFILE -o cisfun``` Writes a script that compiles a C file and creates an executable named cisfun.
