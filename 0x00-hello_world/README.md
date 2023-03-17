@@ -37,5 +37,7 @@ Write a script that compiles a C file but does not link.
 
 
  * [5-printf](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c) Writes a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
+ * [6-size](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c) Write a C program that prints the size of various types on the computer it is compiled and run on.
  * [100-intel](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/100-intel) ```gcc -S -masm=intel $CFILE -o "${CFILE%.c}.s"``` Writes a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 > The -masm=intel option is used to specify that the output assembly code should be in the Intel syntax, which is an alternative to the default AT&T syntax used by GCC.
+* [101-quote.c]()
