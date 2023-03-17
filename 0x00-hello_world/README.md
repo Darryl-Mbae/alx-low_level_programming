@@ -33,3 +33,9 @@ Write a script that compiles a C file but does not link.
     * The output file will be named the same as the C file, but with the extension .s instead of .c
  
  * [3-name](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/3-name) ```gcc $CFILE -o cisfun``` Writes a script that compiles a C file and creates an executable named cisfun.
+ * [4-puts](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/4-puts.c) Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+
+
+ * [5-printf](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c) Writes a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
+ * [100-intel](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/100-intel) ```gcc -S -masm=intel $CFILE -o "${CFILE%.c}.s"``` Writes a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+> The -masm=intel option is used to specify that the output assembly code should be in the Intel syntax, which is an alternative to the default AT&T syntax used by GCC.
