@@ -24,6 +24,7 @@ Write a script that compiles a C file but does not link.
   * The output file should be named the same as the C file, but with the extension .o instead of .c.
   * Example: if the C file is main.c, the output file should be main.o
  
+***
 The $ symbol is used to reference the value of a variable in Bash. 
 Double quotes allow for parameter expansion and command substitution, which means that variables and commands within the quotes are evaluated by the shell before the string is passed to the command. 
 The ```${CFILE}``` parameter expansion is evaluated to the value of the ```$CFILE``` variable (main.c), and then the .c extension is removed using the ```${CFILE%.c}``` syntax. Finally, the .s extension is added to create the output file name.
