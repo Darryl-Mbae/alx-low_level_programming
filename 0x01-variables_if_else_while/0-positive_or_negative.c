@@ -4,7 +4,7 @@
 
 /*
  * main - entry point
- * description: Prints a random number and states whether positve or negative
+ * Description: prints a random number and determines whether it is positive or negative 
  * Return:  0.
 */
 int main(void)
