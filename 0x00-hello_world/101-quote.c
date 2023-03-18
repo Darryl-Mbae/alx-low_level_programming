@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	const char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	size_t message_len = strlen(message);
+	char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	size_t message_len = strlen(msg);
 
-	syscall(SYS_write, 2, message, message_len);
+	syscall(SYS_write, 2, msg, message_len);
 	return (1);
 }
 
