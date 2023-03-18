@@ -1,3 +1,0 @@
-# Ignore all files except those with a .c extension
-
-!*.c
