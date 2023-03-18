@@ -4,7 +4,7 @@
 
 /*
  * main - entry point
- * Description - Prints a random number and states whether
+ * description - Prints a random number and states whether
  *        it is positive, negative, or zero.
  *
  * Return:  0.
