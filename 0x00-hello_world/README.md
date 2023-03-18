@@ -38,6 +38,8 @@ int main(void)
 	return (1);
 }
 ```
+A string is stored in msg.Then the size of the string is store in size_t using ```strlen```.Then we do a system call
+mostly 1 is used instead of 2 because The number 1 passed as the first argument to sys_write and write functions specifies the file descriptor for the standard output stream. On Unix-like systems, file descriptor 1 is typically assigned to the standard output, which is the default destination for output from a program whil using 2 as the file descriptor would be appropriate if you want to output error messages or diagnostics to the standard error stream instead of the standard output stream. This can be useful for separating regular program output from error messages, especially when the output is being redirected to a file or piped to another command.
 
 ## gcc common options
  
