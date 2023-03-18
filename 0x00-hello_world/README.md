@@ -16,6 +16,28 @@ To use ```printf()``` in our program, we need to include stdio.h header file usi
 
 * In C programming, ```scanf()``` is one of the commonly used function to take input from the user. ```The scanf()``` function reads formatted input from the standard input such as keyboards.
 
+## Using System call
+In computing, a system call is the programmatic way in which a computer program requests a service from the operating system on which it is executed.
+We use ```#include <sys/syscall.h>``` header file to allow systems calls
+*example
+
+```
+#include <unistd.h>
+#include <sys/syscall.h>
+#include <string.h>
+/**
+ * main - Prints a string to standard error
+ * Return: 1
+ */
+int main(void)
+{
+	char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	size_t message_len = strlen(msg);
+
+	syscall(SYS_write, 2, msg, message_len);
+	return (1);
+}
+```
 
 ## gcc common options
  
