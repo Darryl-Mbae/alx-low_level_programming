@@ -6,7 +6,7 @@
 
 * The ```getchar()``` function reads a character from the terminal and returns it as an integer. This function reads only a single character at a time.
 * The ```putchar()``` function displays the character passed to it on the screen and returns the same character. This function too displays only a single character at a time.
-8 The ```gets()``` function reads a line from stdin(standard input) into the buffer pointed to by str pointer, until either a terminating newline or EOF (end of file) occurs.
+* The ```gets()``` function reads a line from stdin(standard input) into the buffer pointed to by str pointer, until either a terminating newline or EOF (end of file) occurs.
 * The ```puts()``` function writes the string str with a newline character ('\n') at the end to stdout. On success, a non-negative value is returned.
 
 ## Formatted input / output
@@ -16,6 +16,31 @@ To use ```printf()``` in our program, we need to include stdio.h header file usi
 
 * In C programming, ```scanf()``` is one of the commonly used function to take input from the user. ```The scanf()``` function reads formatted input from the standard input such as keyboards.
 
+## Using System call
+In computing, a system call is the programmatic way in which a computer program requests a service from the operating system on which it is executed.
+We use ```#include <sys/syscall.h>``` header file to allow systems calls
+*example
+
+```
+#include <unistd.h>
+#include <sys/syscall.h>
+#include <string.h>
+/**
+ * main - Prints a string to standard error
+ * Return: 1
+ */
+int main(void)
+{
+	char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	size_t message_len = strlen(msg);
+
+	syscall(SYS_write, 2, msg, message_len);
+	return (1);
+}
+```
+* A string is stored in msg.
+* Then the size of the string is store in size_t using ```strlen```.
+* Then we do a system call mostly 1 is used instead of 2 because The number 1 passed as the first argument to ```sys_write``` and write functions specifies the file descriptor for the standard output stream. On Unix-like systems, file descriptor 1 is typically assigned to the standard output, which is the default destination for output from a program while using 2 as the file descriptor would be appropriate if you want to output error messages or diagnostics to the standard error stream instead of the standard output stream. This can be useful for separating regular program output from error messages, especially when the output is being redirected to a file or piped to another command.
 
 ## gcc common options
  
@@ -59,4 +84,7 @@ Write a script that compiles a C file but does not link.
  * [6-size](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c) Write a C program that prints the size of various types on the computer it is compiled and run on.
  * [100-intel](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/100-intel) ```gcc -S -masm=intel $CFILE -o "${CFILE%.c}.s"``` Writes a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 > The -masm=intel option is used to specify that the output assembly code should be in the Intel syntax, which is an alternative to the default AT&T syntax used by GCC.
-* [101-quote.c]()
+* [101-quote.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c) Writes a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
+
+  * You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
+  * Your program should return 1
