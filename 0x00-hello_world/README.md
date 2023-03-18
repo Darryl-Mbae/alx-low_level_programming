@@ -6,7 +6,7 @@
 
 * The ```getchar()``` function reads a character from the terminal and returns it as an integer. This function reads only a single character at a time.
 * The ```putchar()``` function displays the character passed to it on the screen and returns the same character. This function too displays only a single character at a time.
-8 The ```gets()``` function reads a line from stdin(standard input) into the buffer pointed to by str pointer, until either a terminating newline or EOF (end of file) occurs.
+* The ```gets()``` function reads a line from stdin(standard input) into the buffer pointed to by str pointer, until either a terminating newline or EOF (end of file) occurs.
 * The ```puts()``` function writes the string str with a newline character ('\n') at the end to stdout. On success, a non-negative value is returned.
 
 ## Formatted input / output
@@ -59,4 +59,7 @@ Write a script that compiles a C file but does not link.
  * [6-size](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/6-size.c) Write a C program that prints the size of various types on the computer it is compiled and run on.
  * [100-intel](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/100-intel) ```gcc -S -masm=intel $CFILE -o "${CFILE%.c}.s"``` Writes a script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
 > The -masm=intel option is used to specify that the output assembly code should be in the Intel syntax, which is an alternative to the default AT&T syntax used by GCC.
-* [101-quote.c]()
+* [101-quote.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/101-quote.c) Write a C program that prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
+
+You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
+Your program should return 1
