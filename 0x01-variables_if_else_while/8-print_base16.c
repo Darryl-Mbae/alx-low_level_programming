@@ -11,7 +11,7 @@ int main(void)
 	int i;
 	char digit = '0';
 	char letter = 'a';
-	
+
 	for (i = 0; i < 16; i++)
 	{
 		if (i < 10)
