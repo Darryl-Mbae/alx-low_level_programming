@@ -4,17 +4,17 @@
 
 ## Standard input / output
 
-The ```getchar()``` function reads a character from the terminal and returns it as an integer. This function reads only a single character at a time.
-The ```putchar()``` function displays the character passed to it on the screen and returns the same character. This function too displays only a single character at a time.
-The ```gets()``` function reads a line from stdin(standard input) into the buffer pointed to by str pointer, until either a terminating newline or EOF (end of file) occurs.
-The ```puts()``` function writes the string str with a newline character ('\n') at the end to stdout. On success, a non-negative value is returned.
+* The ```getchar()``` function reads a character from the terminal and returns it as an integer. This function reads only a single character at a time.
+* The ```putchar()``` function displays the character passed to it on the screen and returns the same character. This function too displays only a single character at a time.
+8 The ```gets()``` function reads a line from stdin(standard input) into the buffer pointed to by str pointer, until either a terminating newline or EOF (end of file) occurs.
+* The ```puts()``` function writes the string str with a newline character ('\n') at the end to stdout. On success, a non-negative value is returned.
 
 ## Formatted input / output
 
-The ```printf()``` is a library function to send formatted output to the screen. The function prints the string inside quotations.
+* The ```printf()``` is a library function to send formatted output to the screen. The function prints the string inside quotations.
 To use ```printf()``` in our program, we need to include stdio.h header file using the #include ```<stdio.h>``` statement.
 
-In C programming, ```scanf()``` is one of the commonly used function to take input from the user. ```The scanf()``` function reads formatted input from the standard input such as keyboards.
+* In C programming, ```scanf()``` is one of the commonly used function to take input from the user. ```The scanf()``` function reads formatted input from the standard input such as keyboards.
 
 
 ## gcc common options
