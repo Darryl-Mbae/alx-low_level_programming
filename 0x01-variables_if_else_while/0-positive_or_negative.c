@@ -3,12 +3,15 @@
 #include <time.h>
 
 /*
- * main - entry point
+ * main	- entry point
  * Description:	prints a no and checks whether it is positive or negative
  * Return:  0.
 */
 int main(void)
 {
+	/*
+	 * main	- will cgeck if its + or - or zero
+	 */
 	int n;
 
 	srand(time(0));
