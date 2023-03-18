@@ -16,13 +16,13 @@ int main(void)
 	{
 		if (i < 10)
 		{
-			putchar(digit); // Print digits 0-9
-			digit++; // Increment digit to the next character
+			putchar(digit);
+			digit++;
 		}
 		else
 		{
-			putchar(letter); // Print letters a-f
-			letter++; // Increment letter to the next character
+			putchar(letter);
+			letter++;
 		}
 	}
 	putchar('\n');
