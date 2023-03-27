@@ -22,12 +22,12 @@ int _strlen(char *s)
 void print_rev(char *s)
 {
 	int l = _strlen(s);
-
+	int a = l;
 	int j;
 
-	for (j = l - 1; j < l ; j--)
+	for (j = a; j > 0 ; j--)
 	{
-		putchar(s[j]);
+		putchar(*(s+j));
 	}
 	putchar('\n');
 }
