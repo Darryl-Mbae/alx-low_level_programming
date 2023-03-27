@@ -19,11 +19,52 @@ The above statement assigns the 5th element in the array with a value of 50.0.<b
 Arays have 0 as the index of their first element which is also called the base index and the last index of an array will be total size of the array minus 1. Shown below is the pictorial representation of the array we discussed above <br><br>
 ![image](https://user-images.githubusercontent.com/102142446/227900854-7eeef9d3-0ed9-42fa-a1c6-e97a749a5677.png)<br>
 
-#### Pointers Arithmetic
+### 3 Pointers Arithmetic
 Another way to access different elements of an array, is to use this other notation: ```*(var + x)```, where var is the name of an array, and x is the (x+1)th element (starting counting elements at 0 of course) of this array. For instance if we declare:
 ```int i[10];```
 then, when we will use i in the code, ```i[5]``` will be the same as ```*(i + 5)```. We already knew that i is evaluated as a pointer to the first element of the array, since i is an array. But now, we also know that i + 5 will be evaluated as a pointer to the 6th element of the array i.
+```
+#include <stdio.h>
 
+/**
+ * main - illustrates pointers arithmetic
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+   int a[5];
+
+   *a = 98; /* same as *(a + 0) */
+   *(a + 1) = 198;
+   *(a + 2) = 298;
+   *(a + 3) = 398;
+   *(a + 4) = 498;
+   printf("Value of a[0]: %d\n", *a);
+   printf("Value of a[1]: %d\n", *(a + 1));
+   printf("Value of a[2]: %d\n", *(a + 2));
+   printf("Value of a[3]: %d\n", *(a + 3));
+   printf("Value of a[4]: %d\n", *(a + 4));
+   printf("----------------\n");
+   printf("Value of 'a' (also address of a[0]): %p\n", a);
+   printf("Address of 'a[1]': %p\n", (a + 1));
+   printf("Address of 'a[1]': %p\n", &(*(a + 1)));
+   return (0);
+}
+```
+Output
+```Value of a[0]: 98
+Value of a[1]: 198
+Value of a[2]: 298
+Value of a[3]: 398
+Value of a[4]: 498
+----------------
+Value of 'a' (also address of a[0]): 0x7ffff8f19240
+Address of 'a[1]': 0x7ffff8f19244
+Address of 'a[1]': 0x7ffff8f19244
+
+
+```
 ### 4.Accessing Array Elements
 The following example Shows how to access arrays
 ```
