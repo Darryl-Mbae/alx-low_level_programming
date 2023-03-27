@@ -15,14 +15,15 @@ If you omit the size of the array, an array just big enough to hold the initiali
 ### 3.Assigning elements to an array
 Following is an example to assign a single element of the array −
 ```balance[4] = 50.0;```<br>
+he above statement assigns the 5th element in the array with a value of 50.0.<br>
+Arays have 0 as the index of their first element which is also called the base index and the last index of an array will be total size of the array minus 1. Shown below is the pictorial representation of the array we discussed above <br><br>
+![image](https://user-images.githubusercontent.com/102142446/227900854-7eeef9d3-0ed9-42fa-a1c6-e97a749a5677.png)<br>
+
 #### Pointers Arithmetic
 Another way to access different elements of an array, is to use this other notation: ```*(var + x)```, where var is the name of an array, and x is the (x+1)th element (starting counting elements at 0 of course) of this array. For instance if we declare:
 ```int i[10];```
 then, when we will use i in the code, ```i[5]``` will be the same as ```*(i + 5)```. We already knew that i is evaluated as a pointer to the first element of the array, since i is an array. But now, we also know that i + 5 will be evaluated as a pointer to the 6th element of the array i.
-The above statement assigns the 5th element in the array with a value of 50.0.<br>
-Arays have 0 as the index of their first element which is also called the base index and the last index of an array will be total size of the array minus 1. Shown below is the pictorial representation of the array we discussed above <br><br>
-![image](https://user-images.githubusercontent.com/102142446/227900854-7eeef9d3-0ed9-42fa-a1c6-e97a749a5677.png)<br>
-
+T
 ### 4.Accessing Array Elements
 The following example Shows how to access arrays
 ```
