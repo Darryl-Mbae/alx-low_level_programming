@@ -92,7 +92,23 @@ Element [5] is 6
 Element [6] is 7
 ```
 ***
-![image](https://user-images.githubusercontent.com/102142446/227926562-4f894650-24d4-4b31-b387-69bcccf2b883.png)
+## NB
+```
+char a = 9;
+char *p = &a
+*p++
+
+what is the value of a and p
+```
+> The initial value of a is 9, and p is a pointer to a. In the statement ```*p++```, the postfix increment operator ++ has higher precedence than the dereference operator *, so it first increments the value of the pointer p. However, since p is a pointer to a char, incrementing it moves it to the next memory location that is the next char after a, not to the next byte, as char is typically one byte in size.
+
+After the increment, p points to an indeterminate memory location (i.e., the next char after a). The dereference operator * then accesses the value of the original location p pointed to, which is still a, so *p is equal to 9.
+
+Therefore, the value of a remains unchanged and is still 9.
+> ![image](https://user-images.githubusercontent.com/102142446/227926562-4f894650-24d4-4b31-b387-69bcccf2b883.png)
+>
+
+what is the value of a
 
 ## Multi-dimensional Arrays in C
 
