@@ -91,6 +91,8 @@ Element [4] is 5
 Element [5] is 6
 Element [6] is 7
 ```
+***
+![image](https://user-images.githubusercontent.com/102142446/227926562-4f894650-24d4-4b31-b387-69bcccf2b883.png)
 
 ## Multi-dimensional Arrays in C
 
