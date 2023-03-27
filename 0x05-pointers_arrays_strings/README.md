@@ -105,7 +105,7 @@ what is the value of a and p
 
 > After the increment, p points to an indeterminate memory location (i.e., the next char after a). The dereference operator * then accesses the value of the original location p pointed to, which is still a, so *p is equal to 9.
 
-> Therefore, the value of a remains unchanged and is still 9.
+> Therefore, the value of a remains unchanged and is still 9.<br>
 > ![image](https://user-images.githubusercontent.com/102142446/227927655-1d44ec68-132b-41ed-98ba-ea7e69e0d371.png)
 
 > After the statement *p++, the value of *p is undefined because p has been incremented to point to the next char after a, but it has not been assigned to point to any specific variable or memory location.
