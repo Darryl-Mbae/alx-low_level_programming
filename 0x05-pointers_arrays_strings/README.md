@@ -45,3 +45,12 @@ Element [4] is 5
 Element [5] is 6
 Element [6] is 7
 ```
+
+## Multi-dimensional Arrays in C
+
+C programming language allows multidimensional arrays. Here is the general form of a multidimensional array declaration −
+
+```type name[size1][size2]...[sizeN];```
+For example, the following declaration creates a three dimensional integer array −
+
+```int threedim[5][10][4];```
