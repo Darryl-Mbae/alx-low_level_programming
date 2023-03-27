@@ -70,3 +70,42 @@ int a[3][4] = {
    {8, 9, 10, 11}   /*  initializers for row indexed by 2 */
 };
 ```
+### 2.Accessing Two-Dimensional Array Elements
+An element in a two-dimensional array is accessed by using the subscripts, i.e., row index and column index of the array. For example −
+
+```int val = a[2][3];```
+The above statement will take the 4th element from the 3rd row of the array. You can verify it in the above figure. Let us check the following program where we have used a nested loop to handle a two-dimensional array −
+
+```
+#include <stdio.h>
+ 
+int main () {
+
+   /* an array with 5 rows and 2 columns*/
+   int a[5][2] = { {0,0}, {1,2}, {2,4}, {3,6},{4,8}};
+   int i, j;
+ 
+   /* output each array element's value */
+   for ( i = 0; i < 5; i++ ) {
+
+      for ( j = 0; j < 2; j++ ) {
+         printf("a[%d][%d] = %d\n", i,j, a[i][j] );
+      }
+   }
+   
+   return 0;
+}
+```
+When the above code is compiled and executed, it produces the following result −
+```
+a[0][0]: 0
+a[0][1]: 0
+a[1][0]: 1
+a[1][1]: 2
+a[2][0]: 2
+a[2][1]: 4
+a[3][0]: 3
+a[3][1]: 6
+a[4][0]: 4
+a[4][1]: 8
+```
