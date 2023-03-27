@@ -6,20 +6,28 @@
  *
  * Return: the length of the string
  */
-void print_rev(char *s)
+int _strlen(char *s)
 {
-	int j;
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
-	{
-		putchar(s[i]);
-	}
-	putchar('\n');
+	i = 0;
 
-	for (j = i; j <= i ; j--)
+	while (s[i] != '\0')
 	{
-		putchar(s[i]);
+		i++;
+	}
+
+	return (i);
+}
+void print_rev(char *s)
+{
+	int l = _strlen(s);
+
+	int j;
+
+	for (j = l - 1; j < l ; j--)
+	{
+		putchar(s[j]);
 	}
 	putchar('\n');
 }
