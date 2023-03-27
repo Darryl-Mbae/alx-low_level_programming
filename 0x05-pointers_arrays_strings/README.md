@@ -12,10 +12,35 @@ You can initialize an array in C either one by one or using a single statement a
 
 If you omit the size of the array, an array just big enough to hold the initialization is created. Therefore, if you write −<br>
 ```double balance[] = {1000.0, 2.0, 3.4, 7.0, 50.0};```<br>
-## 3.signing elements to an array
+## 3.Assigning elements to an array
 Following is an example to assign a single element of the array −
 ```balance[4] = 50.0;```<br>
 The above statement assigns the 5th element in the array with a value of 50.0.<br>
 Arays have 0 as the index of their first element which is also called the base index and the last index of an array will be total size of the array minus 1. Shown below is the pictorial representation of the array we discussed above <br><br>
-![](https://www.tutorialspoint.com/cprogramming/images/array_presentation.jpg)
+![](https://www.tutorialspoint.com/cprogramming/images/array_presentation.jpg)<br>
 
+## 4.Accessing Array Elements
+```
+#include <stdio.h>
+ 
+int main(){
+    int value[7] = {1,2,3,4,5,6,7};
+    int i;
+    /* Printing array elements using loop */
+    for(i = 0; i < 7; i++){
+        printf("Element at index %d is %d\n", i, value[i]);
+    }
+     
+    return 0;
+}
+```
+Output
+```
+Element at index 0 is 1
+Element at index 1 is 2
+Element at index 2 is 3
+Element at index 3 is 4
+Element at index 4 is 5
+Element at index 5 is 6
+Element at index 6 is 7
+```
