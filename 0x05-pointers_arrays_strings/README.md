@@ -175,3 +175,33 @@ what is the value of a and p
 > ![image](https://user-images.githubusercontent.com/102142446/227927655-1d44ec68-132b-41ed-98ba-ea7e69e0d371.png)
 
 > After the statement *p++, the value of *p is undefined because p has been incremented to point to the next char after a, but it has not been assigned to point to any specific variable or memory location.
+
+## How to Use Pointers?
+There are a few important operations, which we will do with the help of pointers very frequently. (a) We define a pointer variable, (b) assign the address of a variable to a pointer and (c) finally access the value at the address available in the pointer variable. This is done by using unary operator * that returns the value of the variable located at the address specified by its operand. The following example makes use of these operations −
+```
+#include <stdio.h>
+
+int main () {
+
+   int  var = 20;   /* actual variable declaration */
+   int  *ip;        /* pointer variable declaration */
+
+   ip = &var;  /* store address of var in pointer variable*/
+
+   printf("Address of var variable: %x\n", &var  );
+
+   /* address stored in pointer variable */
+   printf("Address stored in ip variable: %x\n", ip );
+
+   /* access the value using the pointer */
+   printf("Value of *ip variable: %d\n", *ip );
+
+   return 0;
+}
+```
+Output
+```
+Address of var variable: bffd8b3c
+Address stored in ip variable: bffd8b3c
+Value of *ip variable: 20
+```
