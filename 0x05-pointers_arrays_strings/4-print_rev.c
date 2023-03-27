@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: string to evaluate
- *
- * Return: the length of the string
+ * print_rev - prints a string in reverse, followed by a new line
+ * @s: string to be printed
  */
-int _strlen(char *s)
+void print_rev(char *s)
 {
-	int i;
+	int i, j, len;
 
 	i = 0;
 
@@ -17,17 +15,12 @@ int _strlen(char *s)
 		i++;
 	}
 
-	return (i);
-}
-void print_rev(char *s)
-{
-	int l = _strlen(s);
-	int a = l;
-	int j;
+	len = i;
 
-	for (j = a; j > 0 ; j--)
+	for (j = len - 1; j >= 0; j--)
 	{
-		putchar(*(s+j));
+		putchar(s[j]);
 	}
+
 	putchar('\n');
 }
