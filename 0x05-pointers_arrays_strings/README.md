@@ -17,7 +17,7 @@ Following is an example to assign a single element of the array −
 ```balance[4] = 50.0;```<br>
 The above statement assigns the 5th element in the array with a value of 50.0.<br>
 Arays have 0 as the index of their first element which is also called the base index and the last index of an array will be total size of the array minus 1. Shown below is the pictorial representation of the array we discussed above <br><br>
-![](https://www.tutorialspoint.com/cprogramming/images/array_presentation.jpg)<br>
+![image](https://user-images.githubusercontent.com/102142446/227900854-7eeef9d3-0ed9-42fa-a1c6-e97a749a5677.png)<br>
 
 ### 4.Accessing Array Elements
 The following example Shows how to access arrays
