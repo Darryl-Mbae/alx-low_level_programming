@@ -20,6 +20,7 @@ Arays have 0 as the index of their first element which is also called the base i
 ![](https://www.tutorialspoint.com/cprogramming/images/array_presentation.jpg)<br>
 
 ## 4.Accessing Array Elements
+The following example Shows how to access arrays
 ```
 #include <stdio.h>
  
@@ -28,7 +29,7 @@ int main(){
     int i;
     /* Printing array elements using loop */
     for(i = 0; i < 7; i++){
-        printf("Element at index %d is %d\n", i, value[i]);
+        printf("Element [%d] is %d\n", i, value[i]);
     }
      
     return 0;
@@ -36,11 +37,11 @@ int main(){
 ```
 Output
 ```
-Element at index 0 is 1
-Element at index 1 is 2
-Element at index 2 is 3
-Element at index 3 is 4
-Element at index 4 is 5
-Element at index 5 is 6
-Element at index 6 is 7
+Element [0] is 1
+Element [1] is 2
+Element [2] is 3
+Element [3] is 4
+Element [4] is 5
+Element [5] is 6
+Element [6] is 7
 ```
