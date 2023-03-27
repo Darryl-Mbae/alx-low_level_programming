@@ -54,3 +54,10 @@ C programming language allows multidimensional arrays. Here is the general form 
 For example, the following declaration creates a three dimensional integer array −
 
 ```int threedim[5][10][4];```
+
+A two-dimensional array a, which contains three rows and four columns can be shown as follows −<br>
+
+![Screenshot 2023-03-27 122357](https://user-images.githubusercontent.com/102142446/227900360-5a5d5928-34d8-46c2-a9b5-f56c1f499d64.png)
+
+Thus, every element in the array a is identified by an element name of the form a[ i ][ j ], where 'a' is the name of the array, and 'i' and 'j' are the subscripts that uniquely identify each element in 'a'.
+
