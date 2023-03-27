@@ -91,26 +91,6 @@ Element [4] is 5
 Element [5] is 6
 Element [6] is 7
 ```
-***
-## NB
-### Incrementing a pointer
-```
-char a = 9;
-char *p = &a
-*p++
-
-what is the value of a and p
-```
-> The initial value of a is 9, and p is a pointer to a. In the statement ```*p++```, the postfix increment operator ++ has higher precedence than the dereference operator *, so it first increments the value of the pointer p. However, since p is a pointer to a char, incrementing it moves it to the next memory location that is the next char after a, not to the next byte, as char is typically one byte in size.
-
-> After the increment, p points to an indeterminate memory location (i.e., the next char after a). The dereference operator * then accesses the value of the original location p pointed to, which is still a, so *p is equal to 9.
-
-> Therefore, the value of a remains unchanged and is still 9.
-
-> ![image](https://user-images.githubusercontent.com/102142446/227927655-1d44ec68-132b-41ed-98ba-ea7e69e0d371.png)
-
-> After the statement *p++, the value of *p is undefined because p has been incremented to point to the next char after a, but it has not been assigned to point to any specific variable or memory location.
-
 ## Multi-dimensional Arrays in C
 
 C programming language allows multidimensional arrays. Here is the general form of a multidimensional array declaration −
@@ -175,3 +155,23 @@ a[4][0]: 4
 a[4][1]: 8
 ```
 ## Pointers
+A pointer is a variable whose value is the address of another variable, i.e., direct address of the memory location<br>
+The general form of a pointer variable declaration is  ```type *var-name;```
+
+### Incrementing a pointer
+```
+char a = 9;
+char *p = &a
+*p++
+
+what is the value of a and p
+```
+> The initial value of a is 9, and p is a pointer to a. In the statement ```*p++```, the postfix increment operator ++ has higher precedence than the dereference operator *, so it first increments the value of the pointer p. However, since p is a pointer to a char, incrementing it moves it to the next memory location that is the next char after a, not to the next byte, as char is typically one byte in size.
+
+> After the increment, p points to an indeterminate memory location (i.e., the next char after a). The dereference operator * then accesses the value of the original location p pointed to, which is still a, so *p is equal to 9.
+
+> Therefore, the value of a remains unchanged and is still 9.
+
+> ![image](https://user-images.githubusercontent.com/102142446/227927655-1d44ec68-132b-41ed-98ba-ea7e69e0d371.png)
+
+> After the statement *p++, the value of *p is undefined because p has been incremented to point to the next char after a, but it has not been assigned to point to any specific variable or memory location.
