@@ -8,6 +8,8 @@ The preprocessor takes the source code as an input, and it removes all the comme
 
 2. Compiler ~
 The code which is expanded by the preprocessor is passed to the compiler. The compiler converts this code into assembly code. Or we can say that the C compiler converts the pre-processed code into assembly code.Assembly code is a simple English-type language used to write low-level instructions (in micro-controller programs, we use assembly language). The whole program code is parsed (syntax analysis) by the compiler software in one go, and it tells us about any syntax errors or warnings present in the source code through the terminal window.
+
+
 ![image](https://user-images.githubusercontent.com/102142446/233810539-0e5f5d7b-fd2e-4ab5-b2f4-65aa7fe1940c.png)
 
 3. Assembling ~
