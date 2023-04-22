@@ -96,6 +96,9 @@ Write a script that compiles a C file but does not link.
  
  * [3-name](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/3-name) ```gcc $CFILE -o cisfun``` Writes a script that compiles a C file and creates an executable named cisfun.
  * [4-puts](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/4-puts.c) Write a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+> In C programming, quotation marks are used to indicate the start and end of a string. If you want to include a quotation mark within the string itself, you need to use an escape sequence to tell the compiler that the quotation mark should be interpreted as part of the string, rather than as a delimiter for the string.
+
+In this case, the backslash before the first quotation mark tells the compiler to treat the quotation mark as a literal character, rather than as the end of the string. The same goes for the closing quotation mark at the end of the string.
 > By using the backslash, we are telling the C compiler to include the quotation marks as part of the string we want to print, rather than treating them as syntax characters.
 
  * [5-printf](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x00-hello_world/5-printf.c) Writes a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line
