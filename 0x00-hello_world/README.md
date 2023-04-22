@@ -3,16 +3,18 @@
 
 ## Compiling process
 ![image](https://user-images.githubusercontent.com/102142446/233810379-86b29cb8-0268-4b52-8f04-27701748240f.png)
-1. Prepocessor
+1. Prepocessor ~
 The preprocessor takes the source code as an input, and it removes all the comments from the source code. The preprocessor takes the preprocessor directive and interprets it. For example, if <stdio.h>, the directive is available in the program, then the preprocessor interprets the directive and replace this directive with the content of the 'stdio.h' file.
-2. Compiler
+
+2. Compiler ~
 The code which is expanded by the preprocessor is passed to the compiler. The compiler converts this code into assembly code. Or we can say that the C compiler converts the pre-processed code into assembly code.Assembly code is a simple English-type language used to write low-level instructions (in micro-controller programs, we use assembly language). The whole program code is parsed (syntax analysis) by the compiler software in one go, and it tells us about any syntax errors or warnings present in the source code through the terminal window.
 ![image](https://user-images.githubusercontent.com/102142446/233810539-0e5f5d7b-fd2e-4ab5-b2f4-65aa7fe1940c.png)
 
-3. Assembling
-Assembly level code (.s file) is converted into a machine-understandable code (in binary/hexadecimal form) using an assembler. Assembler is a pre-written program that translates assembly code into machine code. It takes basic instructions from an assembly code file and converts them into binary/hexadecimal code specific to the machine type known as the object code.
+3. Assembling ~
+Assembly level code (.s file) is converted into a machine-understandable code (in binary/hexadecimal form) using an assembler. Assembler is a pre-written program that translates assembly code into machine code. It takes basic instructions from an assembly code file and converts them into binary/hexadecimal code specific to the machine type known as the object code.The file generated has the same name as the assembly file and is known as an object file with an extension of .obj in DOS and .o in UNIX OS.
 
-The file generated has the same name as the assembly file and is known as an object file with an extension of .obj in DOS and .o in UNIX OS.
+4. Linking ~ 
+Linking is a process of including the library files into our program. Library Files are some predefined files that contain the definition of the functions in the machine language and these files have an extension of .lib. Some unknown statements are written in the object (.o/.obj) file that our operating system can't understand. You can understand this as a book having some words that you don't know, and you will use a dictionary to find the meaning of those words. Similarly, we use Library Files to give meaning to some unknown statements from our object file. The linking process generates an executable file with an extension of .exe in DOS and .out in UNIX OS.
 
 ## C Output
 
