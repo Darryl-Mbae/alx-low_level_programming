@@ -1,6 +1,9 @@
 # C Prorgramming
 [Everything you need to know to start with C.pdf ](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230422%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230422T221705Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=5ada3d6a4332642c5d07e4e0f0035696146f1b6b3fc3bd260e95badc1a4ff5bf)
 
+## Compiling process
+![image](https://user-images.githubusercontent.com/102142446/233810379-86b29cb8-0268-4b52-8f04-27701748240f.png)
+
 ## C Output
 
 ## Standard input / output
