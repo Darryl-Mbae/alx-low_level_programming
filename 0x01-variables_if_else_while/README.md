@@ -12,4 +12,4 @@
 | -- | Decrement operator decreases the integer value by one.. |i-- |
 
 ## Explanations 
-[0-positive_or_negative.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) ~ 
+[0-positive_or_negative.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) ~ This is a C program that generates a random integer using the rand() function from the stdlib.h library and determines if it is positive, negative, or zero using a conditional statement.
