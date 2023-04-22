@@ -11,3 +11,5 @@
 | ++ | Increment operator increases the integer value by one. | i++ |
 | -- | Decrement operator decreases the integer value by one.. |i-- |
 
+## Explanations 
+[0-positive_or_negative.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) ~ 
