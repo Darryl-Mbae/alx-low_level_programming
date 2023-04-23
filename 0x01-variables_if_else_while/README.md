@@ -40,3 +40,11 @@
 > The program then uses a series of if/else if statements to print information about the last digit of n. If the last digit is greater than 5, the program prints a message saying so. If the last digit is equal to 0, the program prints a different message. Otherwise, the program prints a third message indicating that the last digit is less than 6 and not 0.
 
 [2-print_alphabet.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c) ```for (letter = 'a'; letter <= 'z'; letter++)``` This C program prints all lowercase letters of the English alphabet in a single line, separated by no spaces.
+
+[3-print_alphabets.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c) ~ Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+```
+for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		putchar(toupper(letter));
+	}
+  ```
