@@ -83,9 +83,8 @@ int main (void) {
 ```
 the compiler will see the same token stream as it would if program.c read.
 ```
-int x;
 char *test (void);
-
+int x;
 int main (void) {
    puts (test ());
 }
