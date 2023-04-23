@@ -30,6 +30,8 @@
 
 ## Explanations 
 > Kindly don't copy take your time to understand 
+
+
 [0-positive_or_negative.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) ~ This is a C program that generates a random integer using the rand() function from the stdlib.h library and determines if it is positive, negative, or zero using a conditional statement.
 > rand() - RAND_MAX / 2 subtracts half of the maximum value from the randomly generated integer. This effectively shifts the range of possible values from being centered around 0 to starting from -RAND_MAX/2. For example, if rand() generates the value 20000 and RAND_MAX is 32767, then rand() - RAND_MAX / 2 would be equal to 20000 - 16383 = 3617.
 
@@ -64,4 +66,3 @@ for (letter = 'a'; letter <= 'z'; letter++)
 > When i is less than 10, we know that we are dealing with a digit and we can print it directly using the %d format specifier. However, when i is 10 or greater, we know that we are dealing with a letter, and we need to convert the numeric value to its corresponding character value using the expression ('a' + i - 10).
 
 [9-print_comb.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c) ~ Writes a program that prints all possible combinations of single-digit numbers like this 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-
