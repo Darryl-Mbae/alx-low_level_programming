@@ -64,3 +64,29 @@ This form is used for system header files. It searches for a file named 'file' i
 
 * ```#include "file"```
 This form is used for header files of your own program. It searches for a file named 'file' in the directory containing the current file. You can prepend directories to this list with the -I option while compiling your source code.
+
+## How does it work
+The #include directive works by directing the C preprocessor to scan the specified file as input before continuing with the rest of the current source file. The output from the preprocessor contains the output already generated, followed by the output resulting from the included file, followed by the output that comes from the text after the #include directive. 
+
+For example, if you have a header file header.h as follows −
+```
+char *test (void);
+```
+
+and a main program called program.c that uses the header file, like this −
+```
+#include "header.h"
+int x;
+int main (void) {
+   puts (test ());
+}
+```
+the compiler will see the same token stream as it would if program.c read.
+```
+int x;
+char *test (void);
+
+int main (void) {
+   puts (test ());
+}
+```
