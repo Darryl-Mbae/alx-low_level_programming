@@ -93,9 +93,8 @@ int main (void) {
 > Don't copy answers kindly take your time to understand the syntax 
 * [0-putchar.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c) ~  A program that prints _putchar, followed by a new line.
 * [1-alphabet.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c) ~ A function that prints the alphabet, in lowercase, followed by a new line.
-> The 2-main.c file in the code you provided contains the main() function, which is the entry point for the program. The main() function is required in a C program and it's where the execution of the program starts.
+* [2-print_alphabet_x10.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c) ~ A function that prints 10 times the alphabet, in lowercase, followed by a new line.
+> The 2-main.c file in the code contains the main() function, which is the entry point for the program. The main() function is required in a C program and it's where the execution of the program starts.
 
 > In this case, the main() function is used to call the print_alphabet_x10() function, which is defined in the 2-print_alphabet_x10.c file. Without the 2-main.c file, there would be no way to execute the print_alphabet_x10() function or any other functions defined in the project.
-
-* [2-print_alphabet_x10.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c) ~ A function that prints 10 times the alphabet, in lowercase, followed by a new line.
 * 
