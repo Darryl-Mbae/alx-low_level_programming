@@ -58,6 +58,6 @@ for (letter = 'a'; letter <= 'z'; letter++)
 [7-print_tebahpla.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c) ```for (letter = 'z'; letter >= 'a'; letter--)``` Writes a program that prints the lowercase alphabet in reverse, followed by a new line.
 
 [8-print_base16.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/8-print_base16.c)
-> In the program I provided earlier that prints all the numbers of base 16 in lowercase, we use the condition i < 10 in the for loop to differentiate between digits and letters.
+> In computer science, base 16 is a commonly used numeral system that is also known as hexadecimal. The base 16 system uses 16 distinct symbols to represent numbers: the digits 0-9 and the letters A-F (or a-f) are used to represent the values 10 to 15.We use the condition i < 10 in the for loop to differentiate between digits and letters.
 
 > When i is less than 10, we know that we are dealing with a digit and we can print it directly using the %d format specifier. However, when i is 10 or greater, we know that we are dealing with a letter, and we need to convert the numeric value to its corresponding character value using the expression ('a' + i - 10).
