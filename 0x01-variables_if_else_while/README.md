@@ -38,3 +38,5 @@
 > The program then uses the modulus operator (%) to get the last digit of n by taking the remainder when n is divided by 10. This is done using the expression n % 10.
 
 > The program then uses a series of if/else if statements to print information about the last digit of n. If the last digit is greater than 5, the program prints a message saying so. If the last digit is equal to 0, the program prints a different message. Otherwise, the program prints a third message indicating that the last digit is less than 6 and not 0.
+
+[2-print_alphabet.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c) ```for (letter = 'a'; letter <= 'z'; letter++)``` This C program prints all lowercase letters of the English alphabet in a single line, separated by no spaces.
