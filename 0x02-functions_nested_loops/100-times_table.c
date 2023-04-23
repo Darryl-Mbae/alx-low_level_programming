@@ -19,7 +19,7 @@ void print_times_table(int n)
 			{
 				int r = j * i;
 
-				printf("%3d", r);
+				printf("%2d", r);
 				if (j >= 0)
 				{
 					putchar(',');
