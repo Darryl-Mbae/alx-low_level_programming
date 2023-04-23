@@ -1,4 +1,0 @@
-# ignore all files without .c or .h extension
-*
-!*.c
-!*.h
