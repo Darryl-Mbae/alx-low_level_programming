@@ -11,6 +11,16 @@
 | ++ | Increment operator increases the integer value by one. | i++ |
 | -- | Decrement operator decreases the integer value by one.. |i-- |
 
+## Relationl Operations
+| Operator	| Description	| Example |
+| --------------- | --------------- | --------------- |
+| ==	| Checks if the values of two operands are equal or not. If yes, then the condition becomes true.	| (A == B) is not true. |
+| != | Checks if the values of two operands are equal or not. If the values are not equal, then the condition becomes true.	| (A != B) is true. |
+| > | Checks if the value of left operand is greater than the value of right operand. If yes, then the condition becomes true. |	(A > B) is not true. |
+| <	| Checks if the value of left operand is less than the value of right operand. If yes, then the condition becomes true. |	(A < B) is true. |
+| >= | Checks if the value of left operand is greater than or equal to the value of right operand. If yes, then the condition becomes true.	| (A >= B) is not true. |
+| <= | Checks if the value of left operand is less than or equal to the value of right operand. If yes, then the condition becomes true.	| (A <= B) is true. |
+
 ## Explanations 
 [0-positive_or_negative.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/0-positive_or_negative.c) ~ This is a C program that generates a random integer using the rand() function from the stdlib.h library and determines if it is positive, negative, or zero using a conditional statement.
 > rand() - RAND_MAX / 2 subtracts half of the maximum value from the randomly generated integer. This effectively shifts the range of possible values from being centered around 0 to starting from -RAND_MAX/2. For example, if rand() generates the value 20000 and RAND_MAX is 32767, then rand() - RAND_MAX / 2 would be equal to 20000 - 16383 = 3617.
