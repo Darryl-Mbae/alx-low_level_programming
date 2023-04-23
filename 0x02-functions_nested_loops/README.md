@@ -89,3 +89,6 @@ int main (void) {
    puts (test ());
 }
 ```
+## Explanation
+* [0-putchar.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c) ~  A program that prints _putchar, followed by a new line.
+* [1-alphabet.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c) ~ A function that prints the alphabet, in lowercase, followed by a new line.
