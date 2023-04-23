@@ -52,3 +52,5 @@ int max(int num1, int num2) {
 }
 ```
 > 1. Functions usually return a value but if you use void it means it won't return a value
+
+## 2. Header Files
