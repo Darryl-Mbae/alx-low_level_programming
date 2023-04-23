@@ -62,5 +62,5 @@ for (letter = 'a'; letter <= 'z'; letter++)
 
 > When i is less than 10, we know that we are dealing with a digit and we can print it directly using the %d format specifier. However, when i is 10 or greater, we know that we are dealing with a letter, and we need to convert the numeric value to its corresponding character value using the expression ('a' + i - 10).
 
-[9-print_comb.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c) ~ Writes a program that prints all possible combinations of single-digit numbersloke this 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+[9-print_comb.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c) ~ Writes a program that prints all possible combinations of single-digit numbers like this 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 
