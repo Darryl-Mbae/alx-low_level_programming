@@ -10,7 +10,7 @@ return_type function_name( parameter list ) {
    body of the function
 }
 ```
-Calling a Function
+## Calling a Function
 While creating a C function, you give a definition of what the function has to do. To use a function, you will have to call that function to perform the defined task.
 
 When a program calls a function, the program control is transferred to the called function. A called function performs a defined task and when its return statement is executed or when its function-ending closing brace is reached, it returns the program control back to the main program.
