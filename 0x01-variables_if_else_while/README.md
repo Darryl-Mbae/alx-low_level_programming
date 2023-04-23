@@ -61,3 +61,6 @@ for (letter = 'a'; letter <= 'z'; letter++)
 > In computer science, base 16 is a commonly used numeral system that is also known as hexadecimal. The base 16 system uses 16 distinct symbols to represent numbers: the digits 0-9 and the letters A-F (or a-f) are used to represent the values 10 to 15.We use the condition i < 10 in the for loop to differentiate between digits and letters.
 
 > When i is less than 10, we know that we are dealing with a digit and we can print it directly using the %d format specifier. However, when i is 10 or greater, we know that we are dealing with a letter, and we need to convert the numeric value to its corresponding character value using the expression ('a' + i - 10).
+
+[9-print_comb.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/9-print_comb.c) ~ Writes a program that prints all possible combinations of single-digit numbersloke this 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
