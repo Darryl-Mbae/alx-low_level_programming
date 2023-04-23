@@ -54,3 +54,5 @@ for (letter = 'a'; letter <= 'z'; letter++)
 
 [6-print_numberz.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c) ~ Writes a program that prints all single digit numbers of base 10 starting from 0, followed by a new line
 > putchar can be used to display integers in C, but it requires additional steps to convert the integer to a character before it can be displayed.
+
+[7-print_tebahpla.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/7-print_tebahpla.c) ```for (letter = 'z'; letter >= 'a'; letter--)``` Writes a program that prints the lowercase alphabet in reverse, followed by a new line.
