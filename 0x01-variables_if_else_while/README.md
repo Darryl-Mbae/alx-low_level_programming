@@ -41,15 +41,16 @@
 
 [2-print_alphabet.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/2-print_alphabet.c) ```for (letter = 'a'; letter <= 'z'; letter++)``` This C program prints all lowercase letters of the English alphabet in a single line, separated by no spaces.
 
-[3-print_alphabets.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c) ~ Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+[3-print_alphabets.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/3-print_alphabets.c) ~ Writes a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 ```
 for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar(toupper(letter));
 	}
   ```
-[4-print_alphabt.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c) ~ Write a program that prints the alphabet in lowercase, followed by a new line.Print all the letters except q and e.
+[4-print_alphabt.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c) ~ Writes a program that prints the alphabet in lowercase, followed by a new line.Print all the letters except q and e.
 
-[5-print_numbers.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c) ~ Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+[5-print_numbers.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/5-print_numbers.c) ~ Writes a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
-
+[6-print_numberz.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/6-print_numberz.c) ~ Writes a program that prints all single digit numbers of base 10 starting from 0, followed by a new line
+> putchar can be used to display integers in C, but it requires additional steps to convert the integer to a character before it can be displayed.
