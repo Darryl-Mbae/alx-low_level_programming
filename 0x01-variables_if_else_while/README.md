@@ -25,7 +25,7 @@
 | Operators | Example | Description |
 | --------------- | --------------- | --------------- |
 | && (logical AND) | (x>5)&&(y<5) | It returns true when both conditions are true |
-| || (logical OR) | (x>=10)||(y>=10) | It returns true when at-least one of the condition is true |
+| \|\| (logical OR) | (x>=10)||(y>=10) | It returns true when at-least one of the condition is true |
 | ! (logical NOT) | !((x>5)&&(y<5)) | It reverses the state of the operand “((x>5) && (y<5))” If “((x>5) && (y<5))” is true, logical NOT operator makes it false |
 
 ## Explanations 
