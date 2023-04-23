@@ -100,4 +100,11 @@ int main (void) {
 * [3-islower.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/3-islower.c) ~  A function that checks for lowercase character.
 * [4-isalpha.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/4-isalpha.c) ~  A function that checks for alphabetic character.
 * [5-sign.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/5-sign.c) ~ A function that prints the sign of a number.
-* 
+* [6-abs.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/6-abs.c) ~ Write a function that computes the absolute value of an integer.
+* [7-print_last_digit.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/7-print_last_digit.c) ~ Write a function that prints the last digit of a number.
+* [8-24_hours.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/8-24_hours.c) ~ Writes a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+* [9-times_table.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/9-times_table.c) ~ Writes a function that prints the 9 times table, starting with 0.
+* [10-add.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/10-add.c) ~ Writes a function that adds two integers and returns the result.
+* [11-print_to_98.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/11-print_to_98.c) ~ Writes a function that prints all natural numbers from n to 98, followed by a new line.
+
+
