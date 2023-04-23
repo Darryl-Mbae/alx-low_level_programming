@@ -48,3 +48,4 @@ for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(toupper(letter));
 	}
   ```
+[4-print_alphabt.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x01-variables_if_else_while/4-print_alphabt.c) ~ Write a program that prints the alphabet in lowercase, followed by a new line.Print all the letters except q and e
