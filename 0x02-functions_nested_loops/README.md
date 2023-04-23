@@ -97,4 +97,7 @@ int main (void) {
 > The 2-main.c file in the code contains the main() function, which is the entry point for the program. The main() function is required in a C program and it's where the execution of the program starts.
 
 > In this case, the main() function is used to call the print_alphabet_x10() function, which is defined in the 2-print_alphabet_x10.c file. Without the 2-main.c file, there would be no way to execute the print_alphabet_x10() function or any other functions defined in the project.
+* [3-islower.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/3-islower.c) ~  A function that checks for lowercase character.
+* [4-isalpha.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/4-isalpha.c) ~  A function that checks for alphabetic character.
+* [5-sign.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/5-sign.c) ~ A function that prints the sign of a number.
 * 
