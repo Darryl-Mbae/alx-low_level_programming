@@ -10,26 +10,26 @@ size_t print_list(const list_t *h)
 {
 	int checker = 0;
 
-	const list_t *prntlist;
+	const list_t *ptr;
 
-	prntlist = h;
+	ptr = h;
 
 	if (h == NULL)
 		return (0);
 
-	while (prntlist != NULL)
+	while (ptr != NULL)
 	{
-		if (prntlist->str == NULL)
+		if (ptr->str == NULL)
 		{
 			printf("[0] (nil)\n");
-			prmtlist = prntlist->next;
+			ptr = ptr->next;
 			checker++;
 			continue;
 		}
 
-		printf("[%d] %s\n", prntlist->len, prntlist->str);
+		printf("[%d] %s\n", ptr->len, ptr->str);
 		checker++;
-		prntlist = prntlist->next;
+		ptr = ptr->next;
 
 	}
 
