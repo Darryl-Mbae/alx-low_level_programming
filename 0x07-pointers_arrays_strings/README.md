@@ -74,3 +74,37 @@ int *p;
 
 p = &c; 
 ```
+
+## Dereferencing
+The real power of pointers is that they can manipulate values stored at the memory address they point to. This is called dereferencing. To do this, you can use the dereference operator *
+
+```
+ubuntu@ip-172-31-63-244:~/julien$ cat 5-main.c
+#include <stdio.h>
+
+/**
+ * main - derefencing pointers
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+   int n;
+   int *p;
+
+   n = 98;
+   p = &n;
+   printf("Value of 'n': %d\n", n);
+   printf("Address of 'n': %p\n", &n);
+   printf("Value of 'p': %p\n", p);
+   *p = 402;
+   printf("Value of 'n': %d\n", n);
+   return (0);
+}
+ubuntu@ip-172-31-63-244:~/julien$ gcc 5-main.c -o dereference && ./dereference
+Value of 'n': 98
+Address of 'n': 0x7ffd9c1969a4
+Value of 'p': 0x7ffd9c1969a4
+Value of 'n': 402
+```
+## Functions parameters are passed by value
