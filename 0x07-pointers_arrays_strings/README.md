@@ -68,3 +68,9 @@ Because a pointer is like any other variable, the computer will also reserve the
 ![image](https://github.com/Darryl-Mbae/alx-low_level_programming/assets/102142446/f355b96c-1d58-4aac-a326-c02f3d890c27)
 
 > Remember that a pointer can only point to a variable of the type it is supposed to point to. The following example is incorrect:
+```
+char c;  
+int *p;  
+
+p = &c; 
+```
