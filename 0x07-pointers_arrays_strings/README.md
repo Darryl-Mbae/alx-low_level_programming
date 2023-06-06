@@ -11,7 +11,7 @@ Depending on the type of the variable, the computer will reserve more or less me
 To determine the size of those types on your computer, you can use the sizeof operator.
 ```
 printf("Size of type of my variable n on my computer: %lu bytes\n", sizeof(n));
-}
+
 Size of type of my variable n on my computer: 4 bytes
 ```
 In this example, we simply declare a variable c of type char. The address of c is 8. At this stage, you have not assigned a value to your variable c. So you do not know its value. It depends on what this memory address was used for before. You should never assumed that it is 0.
