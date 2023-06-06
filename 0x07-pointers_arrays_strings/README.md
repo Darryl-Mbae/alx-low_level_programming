@@ -28,3 +28,15 @@ But you know that a byte can only store numbers. So actually, the byte will not 
 
 ![image](https://github.com/Darryl-Mbae/alx-low_level_programming/assets/102142446/f106dab4-bbc5-4b7b-abb6-668806bdca94)
 
+Since integers are stored within four bytes of memory, the same example with an int variable would look like this:
+
+```
+int n;  
+
+n = 98;  
+```
+![image](https://github.com/Darryl-Mbae/alx-low_level_programming/assets/102142446/e3871d88-725d-4681-b9d3-5bb7577d2be7)
+
+***
+Note that you do not control the address where the variable is stored. In order to know what is the address of a variable, you can use the “address-of unary operator” &.
+
