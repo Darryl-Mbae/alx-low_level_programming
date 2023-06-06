@@ -41,6 +41,7 @@ n = 98;
 
 ```
 printf("Address of variable 'c': %p\n", &c);
+
 Address of variable 'c': 0x7ffc370ef13b
 ```
-
+> Note that: You can use %p to print addresses (the values of pointers) with printf
