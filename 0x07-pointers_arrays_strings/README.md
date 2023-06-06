@@ -10,26 +10,18 @@ Depending on the type of the variable, the computer will reserve more or less me
 
 To determine the size of those types on your computer, you can use the sizeof operator.
 ```
-ubuntu@ip-172-31-63-244:~/julien$ cat 0-main.c
-#include <stdio.h>
-
-/**
- * main - using sizeof to dynamically determine the size of types char, int and float
- *
- * Return: Always 0.
- */
-int main(void)
-{
-   int n; 
-
-   printf("Size of type 'char' on my computer: %lu bytes\n", sizeof(char));
-   printf("Size of type 'int' on my computer: %lu bytes\n", sizeof(int));
-   printf("Size of type 'float' on my computer: %lu bytes\n", sizeof(float));
-   printf("Size of type of my variable n on my computer: %lu bytes\n", sizeof(n));
-   return (0);
+printf("Size of type of my variable n on my computer: %lu bytes\n", sizeof(n));
 }
-ubuntu@ip-172-31-63-244:~/julien$ gcc -Wall -Wextra -Werror -pedantic -std=gnu89 0-main.c -o sizeof && ./sizeof
-Size of type 'char' on my computer: 1 bytes
-Size of type 'int' on my computer: 4 bytes
-Size of type 'float' on my computer: 4 bytes
+Size of type of my variable n on my computer: 4 bytes
 ```
+In this example, we simply declare a variable c of type char. The address of c is 8. At this stage, you have not assigned a value to your variable c. So you do not know its value. It depends on what this memory address was used for before. You should never assumed that it is 0.
+
+```
+char c;  
+
+c = 'H';  
+```
+When we assign the value 'H' to c, then 'H' is stored at c‘s address.
+
+But you know that a byte can only store numbers. So actually, the byte will not hold exactly the letter 'H', but its ascii code, which is 72 (man ascii). So it really looks like this in memory:
+
