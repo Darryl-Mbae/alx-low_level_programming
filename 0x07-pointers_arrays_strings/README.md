@@ -37,6 +37,8 @@ n = 98;
 ```
 ![image](https://github.com/Darryl-Mbae/alx-low_level_programming/assets/102142446/e3871d88-725d-4681-b9d3-5bb7577d2be7)
 
-***
-Note that you do not control the address where the variable is stored. In order to know what is the address of a variable, you can use the “address-of unary operator” &.
+> Note that you do not control the address where the variable is stored. In order to know what is the address of a variable, you can use the “address-of unary operator” &.
+
+```printf("Address of variable 'c': %p\n", &c);```
+```Address of variable 'c': 0x7ffc370ef13b```
 
