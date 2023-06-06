@@ -39,6 +39,8 @@ n = 98;
 
 > Note that you do not control the address where the variable is stored. In order to know what is the address of a variable, you can use the “address-of unary operator” &.
 
-```printf("Address of variable 'c': %p\n", &c);
-Address of variable 'c': 0x7ffc370ef13b```
+```
+printf("Address of variable 'c': %p\n", &c);
+Address of variable 'c': 0x7ffc370ef13b
+```
 
