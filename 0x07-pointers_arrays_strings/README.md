@@ -7,6 +7,7 @@ Depending on the type of the variable, the computer will reserve more or less me
 * char -> 1 byte
 * int -> 4 bytes
 * float -> 4 bytes
+
 To determine the size of those types on your computer, you can use the sizeof operator.
 ```
 ubuntu@ip-172-31-63-244:~/julien$ cat 0-main.c
