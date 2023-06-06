@@ -55,3 +55,16 @@ var_type *var;
 
 * The * tells that the variable var is a pointer that points to a var_type.
 * The value of var will be a memory address holding a value of type var_type
+
+```int *ptr;  ```
+In this example, ptr is the name of the variable, of type “pointer to an integer”. Anything that is on the left of the last * before the name of the variable will give you the type that the pointer points to.
+
+```
+/* ptr2 is a pointer to a char */  
+char *ptr2  
+```
+Because a pointer is like any other variable, the computer will also reserve the right amount of memory for it to store its value. On most 64 bits machines, the size of pointers is 8 bytes.
+
+![image](https://github.com/Darryl-Mbae/alx-low_level_programming/assets/102142446/f355b96c-1d58-4aac-a326-c02f3d890c27)
+
+> Remember that a pointer can only point to a variable of the type it is supposed to point to. The following example is incorrect:
