@@ -25,5 +25,6 @@ When we assign the value 'H' to c, then 'H' is stored at c‘s address.
 ![image](https://github.com/Darryl-Mbae/alx-low_level_programming/assets/102142446/bd9d6caa-ea3a-4f09-9094-29b695807e46)
 
 But you know that a byte can only store numbers. So actually, the byte will not hold exactly the letter 'H', but its ascii code, which is 72 (man ascii). So it really looks like this in memory:
+
 ![image](https://github.com/Darryl-Mbae/alx-low_level_programming/assets/102142446/f106dab4-bbc5-4b7b-abb6-668806bdca94)
 
