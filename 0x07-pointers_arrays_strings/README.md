@@ -14,6 +14,8 @@ printf("Size of type of my variable n on my computer: %lu bytes\n", sizeof(n));
 
 Size of type of my variable n on my computer: 4 bytes
 ```
+> Note that: You can use %lu to print sizeof variable with printf
+
 In this example, we simply declare a variable c of type char. The address of c is 8. At this stage, you have not assigned a value to your variable c. So you do not know its value. It depends on what this memory address was used for before. You should never assumed that it is 0.
 
 ```
@@ -45,3 +47,11 @@ printf("Address of variable 'c': %p\n", &c);
 Address of variable 'c': 0x7ffc370ef13b
 ```
 > Note that: You can use %p to print addresses (the values of pointers) with printf
+
+## Storing memory addresses
+Now that we know how to get an address, we can store it in a… pointer! :)
+A pointer is simply the address of a piece of data in memory. A pointer variable is a variable that stores the address of that piece of data. Like any other variable it needs to be declared. General form is:
+var_type *var;
+
+* The * tells that the variable var is a pointer that points to a var_type.
+* The value of var will be a memory address holding a value of type var_type
