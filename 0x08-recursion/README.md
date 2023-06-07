@@ -29,12 +29,12 @@ However, there are scenarios where recursion may not be the best choice:
 > * If the condition if (*s) becomes false (i.e., the null character is reached), the else block is executed. In this case, _putchar('\n') is called to print a newline character, indicating the end of the string.
 
 [1-print_rev_recursion.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/1-print_rev_recursion.c) - Write a function that prints a string in reverse.
-> You initially call the _puts_recursion_reverse function with a pointer to the first character of the string you want to print in reverse order.
-> Inside the function, the condition if (*s) is checked. This condition checks if the current character being pointed to by s is not the null character ('\0'). If it is null, it means we have reached the end of the string, and the recursion stops.
-> If the condition if (*s) is true, the function proceeds to the next steps. The recursive call _puts_recursion_reverse(s + 1) is made. This recursive call moves the pointer s forward by one position, pointing to the next character in the string.
-> The recursive call effectively starts the process over again with the new value of the pointer s. The function execution is paused at this point, waiting for the recursive call to complete.
-> The recursive call continues the process by checking the condition if (*s) again. If the new character being pointed to is not null, it makes another recursive call, moving the pointer s forward once again.
-> This recursive process continues until the null character is encountered, which serves as the base case for the recursion. Once the null character is reached, the recursive calls start to return, one by one, in the original order they were made.
-> As the recursive calls return, the _putchar(*s) line is executed for each character. Here, *s represents the current character being pointed to by s, and _putchar(*s) prints the characters in the original order they appear in the string.
-> The function continues to return from each recursive call, printing each character in the original order until it reaches the original call to _puts_recursion_reverse.
-> Finally, the original call to _puts_recursion_reverse completes, and the entire string has been printed in the original order.
+> * You initially call the _puts_recursion_reverse function with a pointer to the first character of the string you want to print in reverse order.
+> * Inside the function, the condition if (*s) is checked. This condition checks if the current character being pointed to by s is not the null character ('\0'). If it is null, it means we have reached the end of the string, and the recursion stops.
+> * If the condition if (*s) is true, the function proceeds to the next steps. The recursive call _puts_recursion_reverse(s + 1) is made. This recursive call moves the pointer s forward by one position, pointing to the next character in the string.
+> * The recursive call effectively starts the process over again with the new value of the pointer s. The function execution is paused at this point, waiting for the recursive call to complete.
+> * The recursive call continues the process by checking the condition if (*s) again. If the new character being pointed to is not null, it makes another recursive call, moving the pointer s forward once again.
+> * This recursive process continues until the null character is encountered, which serves as the base case for the recursion. Once the null character is reached, the recursive calls start to return, one by one, in the original order they were made.
+> * As the recursive calls return, the _putchar(*s) line is executed for each character. Here, *s represents the current character being pointed to by s, and _putchar(*s) prints the characters in the original order they appear in the string.
+> * The function continues to return from each recursive call, printing each character in the original order until it reaches the original call to _puts_recursion_reverse.
+> * Finally, the original call to _puts_recursion_reverse completes, and the entire string has been printed in the original order.
