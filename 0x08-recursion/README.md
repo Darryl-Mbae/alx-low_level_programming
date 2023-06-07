@@ -38,3 +38,5 @@ However, there are scenarios where recursion may not be the best choice:
 > * As the recursive calls return, the _putchar(*s) line is executed for each character. Here, *s represents the current character being pointed to by s, and _putchar(*s) prints the characters in the original order they appear in the string.
 > * The function continues to return from each recursive call, printing each character in the original order until it reaches the original call to _puts_recursion_reverse.
 > * Finally, the original call to _puts_recursion_reverse completes, and the entire string has been printed in the original order.
+
+[2-strlen_recursion.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/2-strlen_recursion.c) - Write a function that returns the length of a string.
