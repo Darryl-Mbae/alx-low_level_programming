@@ -21,4 +21,10 @@ However, there are scenarios where recursion may not be the best choice:
 ## Explanations
 > Kindly do not copy take your time to understand
 
+[0-puts_recursion.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/0-puts_recursion.c)
+> * The function takes a pointer to a character (char*) as a parameter named s. This pointer represents the string to be printed.
+> * Inside the function, the condition if (*s) is used to check if the current character being pointed to by s is not the null character ('\0'). This condition acts as the base case for the recursion. If *s is not null, the function continues to execute.
+> * Within the if block, _putchar(*s) is called to print the current character pointed to by s. This prints the character to the console or output device.
+> * Next, _puts_recursion(s + 1) is called recursively, passing the incremented pointer s + 1. This moves the pointer to the next character in the string and invokes the _puts_recursion function again. This process continues until the null character is encountered, effectively printing each character of the string.
+> * If the condition if (*s) becomes false (i.e., the null character is reached), the else block is executed. In this case, _putchar('\n') is called to print a newline character, indicating the end of the string.
 
