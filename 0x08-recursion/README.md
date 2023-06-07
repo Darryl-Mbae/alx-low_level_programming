@@ -40,3 +40,5 @@ However, there are scenarios where recursion may not be the best choice:
 > * Finally, the original call to _puts_recursion_reverse completes, and the entire string has been printed in the original order.
 
 [2-strlen_recursion.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/2-strlen_recursion.c) - Write a function that returns the length of a string.
+
+[3-factorial.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/3-factorial.c) - returns the factorial of a given number.
