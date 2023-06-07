@@ -25,3 +25,5 @@ This is where the concept of “rubber duck debugging” comes in.
 * This effect is linked but distinct from the second shift, which is that you have to work from the knowledge that the rubber duck you’re explaining your code to doesn’t know as much about the problem as you do
 When you’re assuming the ignorance of your rubber duck, you’re having to explain more thoroughly and exactly than you were likely thinking those specific lines of code through in your head. You’re forced, by the need to be precise while helping someone else understand your problem, to pay very careful attention to all that you were previously just taking for granted.
 * By explaining your program to a duck, you often magically find the flaw in your code. 
+
+## Explanation
