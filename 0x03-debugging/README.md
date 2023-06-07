@@ -27,3 +27,18 @@ When you’re assuming the ignorance of your rubber duck, you’re having to exp
 * By explaining your program to a duck, you often magically find the flaw in your code. 
 
 ## Explanation
+> Kindly don't copy take your time to understand 
+> Also remember to update your main.h 
+
+[0-main.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x03-debugging/0-main.c) - Based on the main.c file above, create a file named 0-main.c. This file must test that the function positive_or_negative() gives the correct output when given a case of 0.
+> No new code is required after reading the question the only task required is to substitute the 98 with 0 so as to give a case of 0
+
+[1-main.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x03-debugging/1-main.c) - Copy this main file. Comment out (don’t delete it!) the part of the code that is causing the output to go into an infinite loop.
+> Note that Betty is specific with comments "//" she doesnt allow this
+
+[2-largest_number.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x03-debugging/2-largest_number.c) - Fix the code in 2-largest_number.c so that it correctly prints out the largest of three numbers, no matter the case.
+> Take your time read I advise you read through the given one and try to fix it remember they are teaching to debug not come up with our own code
+
+[3-print_remaining_days.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x03-debugging/3-print_remaining_days.c) - Fix the print_remaining_days() function so that the output works correctly for all dates and all leap years.
+> Hint : something does NOT belong there
+
