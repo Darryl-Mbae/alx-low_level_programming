@@ -90,7 +90,7 @@ int main (void) {
 }
 ```
 ## Answers
-> Don't copy answers kindly take your time to understand the syntax 
+> Kindly don't copy take your time to understand remember plagiarism can lead to you being dropped
 * [0-putchar.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c) ~  A program that prints _putchar, followed by a new line.
 * [1-alphabet.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c) ~ A function that prints the alphabet, in lowercase, followed by a new line.
 * [2-print_alphabet_x10.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c) ~ A function that prints 10 times the alphabet, in lowercase, followed by a new line.
