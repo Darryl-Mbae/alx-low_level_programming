@@ -48,3 +48,7 @@ However, there are scenarios where recursion may not be the best choice:
 [5-sqrt_recursion.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/5-sqrt_recursion.c) -  returns the natural square root of a number.
 
 [6-is_prime_number.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/6-is_prime_number.c) -  returns 1 if the input integer is a prime number, otherwise return 0.
+
+[00-is_palindrome.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/100-is_palindrome.c) - returns 1 if a string is a palindrome and 0 if not.
+
+[101-wildcmp.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x08-recursion/101-wildcmp.c) - compares two strings and returns 1 if the strings can be considered identical, otherwise return 0
