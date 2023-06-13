@@ -32,7 +32,9 @@ The command used to create or update the index is called 'ranlib', and is invoke
 ```ar rsc ar rcs libmy.a *.o ```
 
 > r: Replace or add files to the archive. This option replaces any existing files in the archive with the new ones or adds new files if they don't already exist.
+
 > s: Create an index or symbol table in the archive. This option creates or updates an index of the symbols defined in the object files within the archive. The index improves the efficiency of symbol lookup during linking.
+
 > c: Suppress the display of informational messages during the creation of the archive. This option ensures a clean and concise output.
 
 Then index it with ```ranlib```
