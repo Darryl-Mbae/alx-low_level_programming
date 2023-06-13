@@ -50,7 +50,7 @@ for (unsigned int i = 0; i < 98; i++) {
 }
 ```
 
-* [1-strdup.c]()
+* [1-strdup.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c)
 
 ```
 ...
@@ -77,6 +77,8 @@ we use a while loop to calculate the length of the string manually. We iterate t
 After calculating the length, we allocate memory for the new string and perform the necessary checks for successful memory allocation.
 
 Then, we use a for loop to copy each character from the input string to the newly allocated memory.
+
+* [2-str_concat.c]()
 
 Finally, we return the pointer to the duplicated string.
 
