@@ -29,7 +29,7 @@ The command used to create or update the index is called 'ranlib', and is invoke
 1) I simply moved the required .o files from their folders to this folder using ```cp```  then to create the library with the .o files I used
 
  
-```ar rsc ar rcs libmy.a *.o ```
+```ar rcs libmy.a *.o ```
 
 > r: Replace or add files to the archive. This option replaces any existing files in the archive with the new ones or adds new files if they don't already exist.
 
