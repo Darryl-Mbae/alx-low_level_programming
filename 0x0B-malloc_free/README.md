@@ -82,3 +82,5 @@ Finally, we return the pointer to the duplicated string.
 
 
 * [2-str_concat.c]()
+
+> concatenates ~ It basically means joining
