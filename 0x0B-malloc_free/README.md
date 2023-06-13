@@ -51,3 +51,32 @@ for (unsigned int i = 0; i < 98; i++) {
 ```
 
 * [1-strdup.c]()
+
+```
+...
+char *_strdup(char *str) {
+    if (str == NULL)
+        return NULL;
+
+    int length = 0;
+    while (str[length] != '\0')
+        length++;
+
+    char *new_str = (char *)malloc((length + 1) * sizeof(char));
+    if (new_str == NULL)
+        return NULL;
+
+    for (int i = 0; i <= length; i++)
+        new_str[i] = str[i];
+
+    return new_str;
+}
+```
+we use a while loop to calculate the length of the string manually. We iterate through each character of the input string str until we encounter the null terminator character '\0'. The length of the string is incremented with each iteration.
+
+After calculating the length, we allocate memory for the new string and perform the necessary checks for successful memory allocation.
+
+Then, we use a for loop to copy each character from the input string to the newly allocated memory.
+
+Finally, we return the pointer to the duplicated string.
+
