@@ -1,37 +1,44 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
  * str_concat - concatenates two strings.
- * @s1: Input string 1.
- * @s2: Input string 2.
- * Return: pointer to the combined string.
- * It returns NULL if failed
+ * @s1: first string
+ * @s2: second string
+ * Return: a pointer to a combined string or NULL on failure
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i, j, l1, l2, len;
+	int i, j, length1, length2, length;
 	char *combined;
 
-	if (s1 == NULL || s2 == NULL)
-		return (NULL);
+	length1 = length2 = 0;
 
-	l1 = 0;
-	while (s1[l1] != '\0')
-		l1++;
-	l2 = 0;
-	while (s2[l2] != '\0')
-		l2++;
+	if (s1 != NULL)
+	{
+		i = 0;
+		while (s1[i++] != '\0')
+			length1++;
+	}
 
-	len = l1 + l2;
-	combined = (char *)malloc((len + 1) * sizeof(char));
+	if (s2 != NULL)
+	{
+		i = 0;
+		while (s2[i++] != '\0')
+			length2++;
+	}
+
+	length = length1 + length2;
+	combined = (char *)malloc(sizeof(char) * (length + 1));
 	if (combined == NULL)
 		return (NULL);
 
-	for (i = 0; i < l1; i++)
+	for (i = 0; i < length1; i++)
 		combined[i] = s1[i];
-	for (j = 0; j < l2; j++, i++)
+	for (j = 0; j < length2; j++, i++)
 		combined[i] = s2[j];
-	combined[len] = '\0';
+	combined[length] = '\0';
+
 	return (combined);
 }
