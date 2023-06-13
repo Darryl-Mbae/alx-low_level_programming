@@ -84,3 +84,32 @@ Finally, we return the pointer to the duplicated string.
 * [2-str_concat.c]()
 
 > concatenates ~ It basically means joining
+
+```
+...
+length = length1 + length2;
+	combined = (char *)malloc(sizeof(char) * (length + 1));
+	if (combined == NULL)
+		return (NULL);
+
+	for (i = 0; i < length1; i++)
+		combined[i] = s1[i];
+	for (j = 0; j < length2; j++, i++)
+		combined[i] = s2[j];
+	combined[length] = '\0';
+
+	return (combined);
+}
+```
+
+The total length of the combined string is calculated by adding length1 and length2.
+
+Memory is allocated for the combined string using malloc. The size of the allocated memory is (length + 1) * sizeof(char), where length + 1 accounts for the null terminator. If the memory allocation fails, NULL is returned.
+
+The characters of s1 are copied into the combined string using a for loop. The loop iterates length1 times, and at each iteration, it assigns the character from s1 to the corresponding index in the combined string.
+
+Similarly, the characters of s2 are copied into the combined string using another for loop. The loop iterates length2 times, and at each iteration, it assigns the character from s2 to the corresponding index in the combined string. The index i is used to ensure that the characters of s2 are copied after the characters of s1.
+
+The null terminator '\0' is added at the end of the combined string to ensure it is properly terminated.
+
+Finally, the pointer to the combined string is returned.
