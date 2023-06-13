@@ -78,7 +78,7 @@ After calculating the length, we allocate memory for the new string and perform 
 
 Then, we use a for loop to copy each character from the input string to the newly allocated memory.
 
-* [2-str_concat.c]()
-
 Finally, we return the pointer to the duplicated string.
 
+
+* [2-str_concat.c]()
