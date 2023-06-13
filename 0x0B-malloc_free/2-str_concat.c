@@ -32,6 +32,6 @@ char *str_concat(char *s1, char *s2)
 		combined[i] = s1[i];
 	for (j = 0; j < l2; j++, i++)
 		combined[i] = s2[j];
-
+	combined[len] = '\0';
 	return (combined);
 }
