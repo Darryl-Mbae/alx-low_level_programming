@@ -1,6 +1,6 @@
 # 0x0B. C - malloc, free
 
-[0-create_array.c]()
+* [0-create_array.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c)
 ```
 ...
 
@@ -49,3 +49,5 @@ for (unsigned int i = 0; i < 98; i++) {
     printf("%c ", array[i]);
 }
 ```
+
+* [1-strdup.c]()
