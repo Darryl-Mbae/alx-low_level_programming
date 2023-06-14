@@ -1,5 +1,14 @@
 # 0x0B. C - malloc, free
+malloc
+```
+#include <stdlib.h>
+void *malloc(size_t size);
+```
+The malloc() function allocates size bytes and returns a pointer to the allocated
+memory
+The memory is not initialized
 
+## Explanation
 * [0-create_array.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c)
 ```
 ...
@@ -113,3 +122,6 @@ Similarly, the characters of s2 are copied into the combined string using anothe
 The null terminator '\0' is added at the end of the combined string to ensure it is properly terminated.
 
 Finally, the pointer to the combined string is returned.
+
+
+* []()
