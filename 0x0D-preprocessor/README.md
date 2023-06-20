@@ -82,3 +82,24 @@ It's important to note that macros are expanded by the preprocessor and don't un
 | \_\_STDC\_HOSTED\_\_ | Defined by the compiler to indicate whether the program is hosted or freestanding.              |
 | \_\_PRETTY_FUNCTION\_\_ | Expands to a string literal containing the name of the current function or method.               |
 
+
+Example of code using file named main.c
+```
+#include <stdio.h>
+
+int main() {
+    printf("File: %s\n", __FILE__);
+    printf("Line: %d\n", __LINE__);
+    printf("Date: %s\n", __DATE__);
+    printf("Time: %s\n", __TIME__);
+
+    return 0;
+}
+```
+Output :
+```
+File: main.c
+Line: 6
+Date: Jun 20 2023
+Time: 12:34:56
+```
