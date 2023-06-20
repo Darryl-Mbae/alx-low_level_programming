@@ -73,7 +73,7 @@ It's important to note that macros are expanded by the preprocessor and don't un
 ## Pre-defined Macros
 | Predefined Macro	| Description |
 | --------------- | --------------- |
-|  "__FILE__"	 | Expands to the current file's name as a string literal. |
+| /__FILE__/	 | Expands to the current file's name as a string literal. |
 |  __LINE__	 | Expands to the current line number as an integer. |
 |  __DATE__	 | Expands to a string literal representing the date of compilation. |
 |  __TIME__	 | Expands to a string literal representing the time of compilation. |
