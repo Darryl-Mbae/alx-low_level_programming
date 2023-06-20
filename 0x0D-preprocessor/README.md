@@ -49,3 +49,35 @@ As a result, result will be assigned the value 20.
 Macro arguments can be used like variables within the macro definition, and they can participate in expressions, comparisons, or any other valid C code construct. The arguments can be of any valid C data type, and the macro can have multiple arguments separated by commas.
 
 It's important to note that macros are expanded by the preprocessor and don't undergo type checking. Therefore, it's essential to be cautious while using arguments within macros to ensure they are used correctly and avoid unexpected behavior.
+
+## Pre-processor Directives
+
+* #include: Includes the contents of another file into the current source file. It is commonly used to include header files that contain function declarations, macro definitions, or other required code.
+
+* #define: Defines a macro, which is a symbolic name or expression. The preprocessor replaces occurrences of the macro with the defined value or code snippet during the preprocessing phase.
+
+* #ifdef / #ifndef / #endif: These directives are used for conditional compilation. They allow specific code sections to be included or excluded based on the evaluation of certain conditions.
+
+* #ifdef: Tests whether a particular macro is defined. If the macro is defined, the code between #ifdef and the corresponding #endif is included during preprocessing; otherwise, it is excluded.
+
+* #ifndef: The opposite of #ifdef. It tests whether a macro is not defined. If the macro is not defined, the code between #ifndef and the corresponding #endif is included.
+
+* #endif: Ends a conditional compilation block started by #ifdef or #ifndef.
+
+* #if / #elif / #else: These directives are used for more complex conditional compilation. They evaluate constant expressions and conditionally include or exclude code sections.
+
+* #error: Generates a compilation error with a specified error message. It is used to provide custom error messages during preprocessing.
+
+* #pragma: Provides additional instructions to the compiler or linker. The behavior of #pragma directives may vary between different compilers.
+
+## Pre-defined Macros
+| Predefined Macro	| Description |
+| --------------- | --------------- |
+| __FILE__	| Expands to the current file's name as a string literal. |
+| __LINE__	| Expands to the current line number as an integer. |
+| __DATE__	| Expands to a string literal representing the date of compilation. |
+| __TIME__	| Expands to a string literal representing the time of compilation. |
+| __cplusplus	| Defined in C++ mode only. It has a value of 1 if the code is being compiled as C++, allowing conditional compilation based on the programming language. |
+| __STDC__	| Defined by the compiler to indicate that the code is being compiled in a Standard C environment. Its value may vary depending on the level of conformance. |
+| __STDC_HOSTED__	| Defined by the compiler to indicate whether the program is hosted or freestanding. |
+| __PRETTY_FUNCTION__	| Expands to a string literal containing the name of the current function or method (compiler-dependent). |
