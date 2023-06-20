@@ -82,6 +82,7 @@ It's important to note that macros are expanded by the preprocessor and don't un
 | \_\_STDC\_HOSTED\_\_ | Defined by the compiler to indicate whether the program is hosted or freestanding.              |
 | \_\_PRETTY_FUNCTION\_\_ | Expands to a string literal containing the name of the current function or method.               |
 
+And many more 
 
 Example of code using file named main.c
 ```
