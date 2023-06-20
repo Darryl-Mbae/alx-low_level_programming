@@ -7,6 +7,7 @@ Unix systems (as well as most other modern systems) allow us to create and use t
 
 > We will be dealing with static library only
 
+Watch this to understand the difference [Youtube](https://www.youtube.com/watch?v=eW5he5uFBNM)
 
 ## Creating A Static "C" Library
 The basic tool used to create static libraries is a program called 'ar', for 'archiver'. This program can be used to create static libraries , modify object files in the static library, list the names of object files in the library, and so on. In order to create a static library, we can use a command like this:
