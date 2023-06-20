@@ -71,13 +71,14 @@ It's important to note that macros are expanded by the preprocessor and don't un
 * #pragma: Provides additional instructions to the compiler or linker. The behavior of #pragma directives may vary between different compilers.
 
 ## Pre-defined Macros
-Predefined Macro	Description
-__FILE__	Expands to the current file's name as a string literal.
-__LINE__	Expands to the current line number as an integer.
-__DATE__	Expands to a string literal representing the date of compilation.
-__TIME__	Expands to a string literal representing the time of compilation.
-__cplusplus	Defined in C++ mode only. It has a value of 1 if the code is being compiled as C++, allowing conditional compilation based on the programming language.
-__STDC__	Defined by the compiler to indicate that the code is being compiled in a Standard C environment. Its value may vary depending on the level of conformance.
-__STDC_HOSTED__	Defined by the compiler to indicate whether the program is hosted or freestanding.
-__PRETTY_FUNCTION__	Expands to a string literal containing the name of the current function or method (compiler-dependent).
+| Predefined Macro   | Description                                                                                        |
+|-------------------|----------------------------------------------------------------------------------------------------|
+| \_\_FILE\_\_        | Expands to the current file's name as a string literal.                                          |
+| \_\_LINE\_\_        | Expands to the current line number as an integer.                                                |
+| \_\_DATE\_\_        | Expands to a string literal representing the date of compilation.                               |
+| \_\_TIME\_\_        | Expands to a string literal representing the time of compilation.                               |
+| \_\_cplusplus       | Defined in C++ mode only. It has a value of 1 if the code is being compiled as C++.             |
+| \_\_STDC\_\_         | Defined by the compiler to indicate that the code is being compiled in a Standard C environment. |
+| \_\_STDC\_HOSTED\_\_ | Defined by the compiler to indicate whether the program is hosted or freestanding.              |
+| \_\_PRETTY_FUNCTION\_\_ | Expands to a string literal containing the name of the current function or method.               |
 
