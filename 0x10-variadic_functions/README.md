@@ -1,4 +1,4 @@
-0x10. C - Variadic functions
+# 0x10. C - Variadic functions
 
 stdarg.h is a header file in the C programming language that provides facilities for accessing variadic arguments. "Variadic" means that the number and type of arguments can vary. This header file is part of the standard C library and is typically used when writing functions that accept a variable number of arguments.
 
