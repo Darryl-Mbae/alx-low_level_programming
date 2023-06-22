@@ -21,7 +21,8 @@ Example of code
 
 void print_ints(int num, ...)
 {
-va_start(va_list  args, num);
+va_list  args;
+va_start(args, num);
 
 for (int i=0; i < num; i++)
 {
