@@ -1,4 +1,4 @@
-# Alx low levl programmning
+# Alx low level programmning
 
 First do yo know why we use gcc -Wall -Werror -Wextra -pedantic -std=gnu89
 * -Wall: Enables a set of warning messages that catch common programming errors and potential issues. It stands for "all warnings."
