@@ -1,21 +1,21 @@
 # 0x0B. C - malloc, free
 malloc is a function in the C programming language (and C++) that is used to dynamically allocate memory at runtime. It stands for "memory allocation." Here are some important points to note about malloc:
 
-Syntax:
+## Syntax:
 
 The function prototype for malloc is``` void* malloc(size_t size);```
 * It takes a single argument size of type size_t, which represents the number of bytes to allocate.
 Return Value:
 
-malloc returns a pointer of type void* to the allocated memory block if successful.
+* Malloc returns a pointer of type void* to the allocated memory block if successful.
 
-If the allocation fails, malloc returns NULL, indicating that the requested memory could not be allocated.
+* If the allocation fails, malloc returns NULL, indicating that the requested memory could not be allocated.
 Dynamic Memory Allocation:
 
-malloc allows you to allocate memory dynamically at runtime, as opposed to static memory allocation done at compile-time.
+* Malloc allows you to allocate memory dynamically at runtime, as opposed to static memory allocation done at compile-time.
 Dynamically allocated memory is stored on the heap, which is a region of the computer's memory separate from the stack.
 
-Size Calculation:
+## Size Calculation:
 
 The size argument of malloc specifies the number of bytes to allocate.
 You can calculate the size using the sizeof operator, which returns the size of a type in bytes.
@@ -26,7 +26,15 @@ void *malloc(size_t size);
 ```
 The malloc() function allocates size bytes and returns a pointer to the allocated
 memory
-The memory is not initialized
+# Deallocation:
+
+> It is essential to free the dynamically allocated memory when it is no longer needed to avoid memory leaks.
+
+Use the free function to deallocate memory: ```void free(void* ptr);```.
+
+The argument ptr is the pointer returned by malloc or related functions.
+
+After calling free, the memory block becomes available for reuse.
 
 ## Explanation
 * [0-create_array.c](https://github.com/Darryl-Mbae/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c)
