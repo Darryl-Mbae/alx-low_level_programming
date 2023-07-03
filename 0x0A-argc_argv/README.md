@@ -2,9 +2,9 @@
 
 argc and argv are commonly used in C and C++ programming languages to handle command-line arguments passed to a program when it is executed.
 
-argc stands for "argument count" and is an integer that represents the number of command-line arguments passed to the program. It includes the name of the program itself as the first argument, so the minimum value of argc is 1.
+* argc stands for "argument count" and is an integer that represents the number of command-line arguments passed to the program. It includes the name of the program itself as the first argument, so the minimum value of argc is 1.
 
-argv stands for "argument vector" and is an array of strings (char*) that contains the actual command-line arguments passed to the program. The first element argv[0] is always the name of the program itself, and the subsequent elements argv[1] to argv[argc-1] contain the additional arguments. 
+* argv stands for "argument vector" and is an array of strings (char*) that contains the actual command-line arguments passed to the program. The first element argv[0] is always the name of the program itself, and the subsequent elements argv[1] to argv[argc-1] contain the additional arguments. 
 
 The value of argc depends on the number of arguments passed when executing the program from the command line.
 
