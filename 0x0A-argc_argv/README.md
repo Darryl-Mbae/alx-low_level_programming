@@ -10,9 +10,9 @@ The value of argc depends on the number of arguments passed when executing the p
 
 The contents of argv are determined by the actual arguments passed to the program. Each element of argv is a null-terminated string representing an individual argument.
 
-The last element of the argv array, argv[argc], is always set to NULL to indicate the end of the argument list.
+* The last element of the argv array, argv[argc], is always set to NULL to indicate the end of the argument list.
 
-The program's name is usually stored in argv[0], although this is not a requirement.
+* The program's name is usually stored in argv[0], although this is not a requirement.
 
 ```#include <stdio.h>
 
