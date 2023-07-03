@@ -1,5 +1,24 @@
 # 0x0B. C - malloc, free
-malloc
+malloc is a function in the C programming language (and C++) that is used to dynamically allocate memory at runtime. It stands for "memory allocation." Here are some important points to note about malloc:
+
+Syntax:
+
+The function prototype for malloc is void* malloc(size_t size);.
+It takes a single argument size of type size_t, which represents the number of bytes to allocate.
+Return Value:
+
+malloc returns a pointer of type void* to the allocated memory block if successful.
+If the allocation fails, malloc returns NULL, indicating that the requested memory could not be allocated.
+Dynamic Memory Allocation:
+
+malloc allows you to allocate memory dynamically at runtime, as opposed to static memory allocation done at compile-time.
+Dynamically allocated memory is stored on the heap, which is a region of the computer's memory separate from the stack.
+
+Size Calculation:
+
+The size argument of malloc specifies the number of bytes to allocate.
+You can calculate the size using the sizeof operator, which returns the size of a type in bytes.
+For example, ```malloc(10 * sizeof(int))``` allocates space for 10 integers.
 ```
 #include <stdlib.h>
 void *malloc(size_t size);
