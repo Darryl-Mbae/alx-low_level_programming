@@ -3,11 +3,12 @@ malloc is a function in the C programming language (and C++) that is used to dyn
 
 Syntax:
 
-The function prototype for malloc is void* malloc(size_t size);.
-It takes a single argument size of type size_t, which represents the number of bytes to allocate.
+The function prototype for malloc is``` void* malloc(size_t size);```
+* It takes a single argument size of type size_t, which represents the number of bytes to allocate.
 Return Value:
 
 malloc returns a pointer of type void* to the allocated memory block if successful.
+
 If the allocation fails, malloc returns NULL, indicating that the requested memory could not be allocated.
 Dynamic Memory Allocation:
 
